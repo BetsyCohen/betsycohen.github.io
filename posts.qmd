@@ -1,0 +1,27 @@
+---
+title: "Publicaciones y participaciones"
+listing:
+  id: posts
+  contents: posts
+  sort: "date desc"
+  type: grid
+  fields: [image, date, title, subtitle]
+  grid-columns: 2
+  grid-item-align: center
+  grid-item-border: false
+  categories: unnumbered
+  sort-ui: false
+  date-format: short
+page-layout: full
+title-block-banner: true
+---
+
+::: {#posts}
+**Algunos de mis trabajos y participaciones**
+
+------------------------------------------------------------------------
+:::
+
+<div>
+
+</div>

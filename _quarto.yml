@@ -1,3 +1,7 @@
+project:
+  type: website
+  output-dir: _site
+
 website:
   page-navigation: true
   title: "Betsy Cohen"
@@ -18,28 +22,5 @@ website:
         href: https://www.linkedin.com/in/betsabe1984/
       - icon: envelope
         href: mailto:betsabecohen@gmail.com
-
-      
-
-format:
-  html:
-    smooth-scroll: true
-    theme: cosmo
-    css: styles.css
-    link-external-icon: false
-    link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/betsycohen.github.io\/**'
-    citations-hover: true
-    footnotes-hover: true
-    toc: true
-    code-link: true
-
-editor: visual
-
-execute:
-  freeze: true
-
-
-
 
 
