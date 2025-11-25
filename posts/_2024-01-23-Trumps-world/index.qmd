@@ -1,0 +1,54 @@
+---
+title: "Graficos de grafos"
+subtitle: "Probamos echart4r con un data ser sobre "
+date: "2023-10-01"
+categories: [R, Estadística, NIS, RLadies, Charlas]
+image: "dataset-cover.jpeg"
+toc: false
+---
+
+```{r}
+library(tidyverse)
+library(echarts4r)
+
+```
+
+
+```{r}
+# Cargar los datos
+person_person <- read.csv("data/Person_Person.csv", stringsAsFactors = FALSE)
+person_org <- read.csv("data/Person_Org.csv", stringsAsFactors = FALSE)
+org_org <- read.csv("data/Org_Org.csv", stringsAsFactors = FALSE)
+approval_polllist <- ("data/")
+```
+
+
+```{r}
+glimpse(person_person)
+```
+
+
+```{r}
+# Crear nodos y enlaces
+nodes <- data.frame(name = unique(c(person_person$Column1, person_person$Column2, 
+                                    person_org$Column1, person_org$Column2, 
+                                    org_org$Column1, org_org$Column2)))
+
+edges <- rbind(person_person, person_org, org_org)
+
+```
+
+
+
+```{r}
+# Crear el gráfico de red
+e_charts() %>%
+  e_graph_gl() %>%
+  e_graph_nodes(nodes, name) %>%
+  e_graph_edges(edges, Column1, Column2)
+```
+
+
+
+
+

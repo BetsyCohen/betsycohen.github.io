@@ -1,0 +1,18 @@
+---
+title: "Análisis elecciones 2015"
+subtitle: "Ensayo de un aálisis de correspondencias múltiples y árboles de decisión para explicar desiciones electorales en Córdoba y Buenos Aires."
+date: "2023-10-01"
+categories: [R, Estadística]
+image: "analisis-elecciones-2015.jpg"
+toc: false
+---
+
+## Análisis elecciones 2015
+
+![](analisis-elecciones-2015.jpg){fig-align="center"}
+
+Las elecciones 2015 significaron una ruptura en la historia de la joven democracia argentina: por primera vez fue elegido un presidente que no pertenecía ninguno de los partidos tradicionales argentinos (el peronismo y el radicalismo). En el marco de la materia Investigación Electoral y de Opinión Pública Aplicada de la Maestría en Gestión y Análisis de la información Estadística de UNTREF, realizo un análisis comparado del potencial electoral de los principales candidatos, y un análisis de correspondencias múltiples y árboles de decisión que nos ayudan a comprender el voto en las provincias de Córdoba y Buenos Aires.
+
+<a href="https://rpubs.com/Betsy_AR/MGAIE_TP_OP"> <button type="button" class="btn btn-primary float-end btn-sm">Ver este post</button></a>
+
+<br>

@@ -1,0 +1,19 @@
+---
+title: "Visualizando establecimientos de Salud con Shiny"
+subtitle: "Probamos Shiny para visualizar estavlecimientos de salud"
+categories:
+ [R, Shiny]
+date: "2023-10-20"
+toc: FALSE
+image: "portada_web_nueva.jpg"
+---
+
+## Visualizando establecimientos de Salud con Shiny
+
+![Foto: Hospital Nacional Posadas por Xavi Barreiro](portada_web_nueva.jpg){fig-align="center"}
+
+Este tablero muestra información sobre el rendimiento de consultas médicas promedio de los establecimientos de la provincia de Buenos Aires. Está dividido en dos pestañas: una de indicadores por año
+
+Indicadores por año: Muestra un mapa y tabla con resultados por Región Sanitaria y tipo de financiamiento. Evoluciones: Gráficos de evolución de estos indicadores por Región, partido, y tipo de financiamiento entre 2018 y 2022.
+
+<a href="https://betsy-cohen.shinyapps.io/establecimiemtos_salud_pba/"> <button type="button" class="btn btn-primary float-end btn-sm">Ver la Shiny</button></a>

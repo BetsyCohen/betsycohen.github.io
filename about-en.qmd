@@ -1,0 +1,44 @@
+---
+title: "Hi I'm Betsy Cohen"
+comments: false
+image: avatar2.jpg
+about:
+  template: broadside
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:betsabecohen@gmail.com
+    - icon: file-pdf
+      text: Resume
+      href: 'https://github.com/BetsyCohen/resume/blob/main/CV%20Betsab%C3%A9%20Cohen-%20English.pdf'  
+    - icon: github
+      text: GitHub
+      href: https://github.com/BetsyCohen
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/betsabe1984/ 
+---
+
+<center>
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a> <a href="about-en.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a>
+:::
+
+</center>
+
+::: {#hero-heading}
+I'm a sociologist from University of Buenos Aires (UBA) specialized in cultural industries and candidate for the Master's Degree in Generation and Analysis of Statistical Information from the National University of Tres de Febrero (UNTREF).
+
+I specialize in data analysis and generation of evidence-based solutions in both the public and private sectors.
+
+I currently work as a data analyst and as a teacher in Data Analysis I in Sociology at UFLO.
+
+**Communities of practice and collectives**
+
+<div>
+
+Since 2019 I have participated in the [Nucleo de Innovación Social](https://nucleodeinnovacionsocial.com.ar/), an interdisciplinary research and development hub that has the support of the Sociology Colleges of the province and the city of Buenos Aires, and since 2022 I'm part of the [RLadies Buenos Aires](https://rladiesba.netlify.app/) team, a global organization that promotes Gender Diversity in the R community.
+
+</div>
+:::
